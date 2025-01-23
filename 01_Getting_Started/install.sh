@@ -39,7 +39,7 @@ pip install llama-index-vector-stores-qdrant==0.2.8 llama-index-readers-file==0.
 # Install LLM Libraries
 echo "Installing LLM Libraries..."
 pip install cohere==5.5.0
-pip install openai==1.30.1
+pip install openai==1.30.1                          # rmh Needed to pin ==1.40.0 due to error 
 pip install llama-index-llms-cohere==0.2.0
 pip install llama-index-llms-openai==0.1.19
 pip install llama-index-embeddings-cohere==0.1.8
